@@ -156,3 +156,51 @@ header {
     margin: 35px;
     font-size: 16px;
 }
+
+/* LAST SECTION - CONTACT */
+#contact {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.socials-cont{
+    display: inherit;
+}
+.socials a {
+    color: inherit;
+}
+
+.fab {
+    margin: 25px;
+    font-size: 15px;
+}
+
+.fab:hover {
+    transform: scale(1.1);
+}
+
+/* FOOTER SECTION */
+
+footer {
+    font-family: sans-serif;
+
+    height: 100px;
+    width: 100%;
+
+    margin-top: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--black);
+    color: var(--white);
+    
+    
+    background: url(images/headerbg.png);
+    background-size:contain;
+}
